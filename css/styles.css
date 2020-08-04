@@ -1,0 +1,141 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    /* width: 10%; */
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    height: 0px;
+    margin: 75px auto 75px auto;
+    width: 50px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/* ------------------------------------------------------------------------Classes----------------------------------------------------------------------- */
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 600px;
+}
+
+.middle-container {}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 600px;
+    top: 50px;
+
+}
+
+.circle-img {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.flutter-img {
+    float: left;
+    margin-right: 30px;
+    width: 20%;
+}
+
+.java-img {
+    float: right;
+    margin-right: 30px;
+    width: 20%;
+}
+
+.python-img {
+    float: left;
+    margin-right: 30px;
+    width: 20%;
+}
+
+.personal-description {
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.contact-me {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.copy-right {
+    color: #eaf6f6;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.footer-link {
+    padding: 0 20px 0 20px;
+}
+
+.btn {
+    background-color: #66bfbf;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 20px 8px 20px;
+
+}
